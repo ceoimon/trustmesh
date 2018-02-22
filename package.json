@@ -1,6 +1,6 @@
 {
   "name": "@keymesh/trustmesh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Blockchain-based (Ethereum) public key and message infrastructure",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "test:contract": "truffle test",
     "test": "yarn test:contract",
     "cleanup": "truffle networks --clean",
-    "prepublishOnly": "yarn cleanup && yarn migrate:all",
+    "prepublishOnly": "yarn cleanup && yarn build && yarn migrate:all",
     "tslint": "tslint"
   },
   "husky": {
