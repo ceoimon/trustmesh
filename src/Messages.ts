@@ -18,7 +18,7 @@ export class Messages extends BaseContract {
 
 export interface IMessage {
   message: string
-  timestamp: string
+  timestamp: number
 }
 
 export interface IQueriedMessages {

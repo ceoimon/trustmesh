@@ -22,7 +22,7 @@ export class BroadcastMessages extends BaseContract {
 export interface IBroadcastMessage {
   signedMessage: string
   userAddress: string
-  timestamp: string
+  timestamp: number
 }
 
 export interface IQueriedBroadcastMessages {
